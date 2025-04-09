@@ -3,17 +3,66 @@
     padding: 0;
 }
 
-body,
 html {
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
     font-family: "Josefin Sans", sans-serif;
 }
-main{
+
+main {
     width: 100%;
     height: 100%;
 }
+
+.topnav {
+    background-color: #ebebeb;
+    /* overflow: hidden; */
+    padding: 20px 28px;
+
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 3px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.topnav a:hover {
+
+    color: #d4aa51;
+    ;
+}
+
+.topnav a.active {
+    background-color: #d4aa51;
+    color: #fff;
+    text-align: center;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.headh4 {
+    background: linear-gradient(rgb(0, 194, 252), rgb(206, 10, 189));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
 .hotel {
     font-size: 32px;
     font-weight: 500;
@@ -22,6 +71,14 @@ main{
     font-family: monospace;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+.navbar-collapse.show {
+    display: block !important;
 }
 
 .nav_list ul li a {
@@ -40,6 +97,14 @@ main{
     color: #d4aa51;
     cursor: pointer;
 
+}
+
+.modal-title {
+    color: #d4aa51;
+}
+
+.modal-body input {
+    width: 28rem;
 }
 
 #home {
@@ -227,7 +292,7 @@ main{
 
 .wrapper {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -238,11 +303,18 @@ main{
     position: relative;
     overflow: hidden;
 }
-.carousel img{
-    transition: transform 0.3s ease-in-out;
+
+.our-img-div {
+    width: 650px;
+    height: 560px;
+}
+
+.our-img-div img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
+
 .carousel::after {
     content: "";
     position: absolute;
@@ -250,7 +322,7 @@ main{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #1dc1f867;
+    background: #1dc1f846;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
@@ -259,30 +331,25 @@ main{
     opacity: 1;
 }
 
-.carousel:hover img{
-    transform: scale(1.05);
-}
-
-
 .wrapper .slick-dots li button:before {
     font-size: 20px;
     color: white;
 }
 
 .our-box {
-    background-color: rgb(237, 236, 236);
+    background-color: #d4aa51ca;
     color: #0f0f0f;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .our-box:hover {
     background-color: rgb(32, 32, 32);
     color: #f3f2f2;
-    transition: transform 0.3s ease-in-out,
+    transition: transform 0.5s ease-in-out,
 
 }
-
-
 
 /* section 3 css end  */
 
@@ -399,6 +466,7 @@ main{
 .counter-box.colored .counter {
     color: #fff
 }
+
 /* section counter css end  */
 /* section 5 css start  */
 .section5 h1 {
@@ -432,13 +500,15 @@ main{
     margin-bottom: 15px;
 }
 
-.contact-info span {
+.contact-info a {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 16px;
+    font-size: 12px;
+    text-decoration: none;
     font-weight: 400;
     border: 1px solid gray;
+    color: #333;
     padding: 10px 13px;
     border: none;
     background: #d4aa51;
@@ -546,7 +616,223 @@ button:hover {
     font-size: 23px;
 }
 
+.box-img {
+    width: 320px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    background: #d5971268;
+    border-radius: 1px;
+}
 
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #d5971268;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.box-img:hover img {
+    transform: scale(1.05);
+}
+
+.box-img:hover::after {
+    opacity: 1;
+}
+
+.room-heading h1 {
+    color: #d4aa51;
+}
+
+.tab {
+    text-align: center;
+    overflow: hidden;
+    background-color: #d4aa51;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #d4aa51;
+    border: none;
+    border-radius: none;
+}
+
+.tabcontent {
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+
+.view-content h1 {
+    color: #d4aa51;
+}
+
+.view-room {
+    width: 330px;
+    height: auto;
+}
+
+.view-room img {
+    height: auto;
+    width: 100%;
+}
+
+.view-room-con h5 {
+    margin-top: 20px;
+}
+
+/* conatct page css start */
+.touch-btn {
+    background-color: #b98e44;
+}
+
+.touch-btn:hover {
+    background-color: #d4aa51;
+}
+
+#contact-head-main {
+    background-image: url("../img/back2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#contact-head-main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #33240371;
+    z-index: 1;
+}
+
+#contact-head-main h2 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 80;
+    font-size: 40px;
+}
+
+#contact-head-main p {
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+.touch h2 {
+    color: #b98e44;
+    border-bottom: 2px solid #b98e44;
+}
+
+.touch p {
+    color: #333;
+}
+
+.contact-form label {
+    width: 100%;
+
+}
+
+label {
+    display: block;
+}
+
+.touch p i {
+    color: #b98e44;
+}
+
+/* contact page css end  */
+
+/* services page css start  */
+.services-head h1{
+    color: #b98e44;
+}
+.services-head h4{
+    color: #b98e44;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flip-card-back {
+    background-color: #1371cf74;
+    color: #333;
+    transform: rotateY(180deg);
+}
+
+/* services page css end  */
 /* section 5 css end  */
 @media (max-width: 768px) {
     .card {
@@ -558,12 +844,21 @@ button:hover {
         transform: translateY(-5px);
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     }
+
+    .our-img-div {
+        width: 650px;
+        height: 350px;
+    }
+
+    .our-img-div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 480px) {
-    .nav_list ul{
-        display: none;
-    }
+
     .owl-carousel .item {
         height: 20rem;
         display: flex;
@@ -571,6 +866,10 @@ button:hover {
         align-items: center;
         position: relative;
         text-align: center;
+    }
+
+    .headicon {
+        margin-top: 10px;
     }
 
     .card {
@@ -597,6 +896,7 @@ button:hover {
         font-size: 0.4rem;
         color: white;
     }
+
     .owl-carousel .item button {
         top: 65%;
         left: 40%;
@@ -612,23 +912,76 @@ button:hover {
         transition: transform 0.3s ease-in-out;
         font-family: Arial, Helvetica, sans-serif;
     }
-    .place-main{
+
+    .place-main {
         margin-bottom: 10px;
         border: 1px lightgrey;
         border-radius: 2px;
     }
-    .place{
+
+    .place {
         flex-direction: column;
         gap: 50;
     }
-    .add{
+
+    .add {
         padding-left: 10px;
         padding-top: 5px;
     }
-    .contact-info{
+
+    .contact-info {
         padding: 10px 13px;
     }
-    .contact-info span{
+
+    .contact-info span {
         font-size: 12px;
+    }
+
+    .our-img-div {
+        width: 380px;
+        height: 240px;
+    }
+
+    .our-img-div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .tab{
+        width: 385px;
+        margin-bottom: 10px;
+    }
+    .tab button{
+        padding: 14px 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 480px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }

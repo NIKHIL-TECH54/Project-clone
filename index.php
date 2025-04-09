@@ -1,30 +1,38 @@
 <?php include 'include/header.php' ?>
-<!--  section 1 start  -->
+<title>Hotel_Website</title>
+<link rel="icon" href="../Hotel_Clone/img/logo-2.png" >
 <main>
+    <!--  section 1 start  -->
     <div class="owl-carousel owl-theme head">
         <div class="item d-flex flex-column justify-content-center" id="headbar">
             <h1>Hotel Luxury </h1>
             <p class="">TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER <br>
                 DON'T MISS THIS OPPORTUNITY FOR YOUR BUSINESS</p>
-            <button class="btn" id="bookroom">Book Room At</button>
+            <a href="room.php">
+                <button id="bookroom">Book Room At</button>
+            </a>
             <h6>* Best Price Guaranteed !</h6>
-            <img src="../Hotal Clone/img/back2.jpg" alt="">
+            <img src="../Hotel_Clone/img/back2.jpg" alt="">
         </div>
         <div class="item d-flex flex-column justify-content-center" id="headbar">
             <h1>Hotel Luxury </h1>
             <p class="">TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER <br>
                 DON'T MISS THIS OPPORTUNITY FOR YOUR BUSINESS</p>
-            <button id="bookroom">Book Room At</button>
+            <a href="room.php">
+                <button id="bookroom">Book Room At</button>
+            </a>
             <h6>* Best Price Guaranteed !</h6>
-            <img src="../Hotal Clone/img/back.jpg" alt="">
+            <img src="../Hotel_Clone/img/back.jpg" alt="">
         </div>
         <div class="item d-flex flex-column justify-content-center" id="headbar">
             <h1>Hotel Luxury </h1>
             <p class="">TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER <br>
                 DON'T MISS THIS OPPORTUNITY FOR YOUR BUSINESS</p>
-            <button id="bookroom">Book Room At</button>
+            <a href="room.php">
+                <button id="bookroom">Book Room At</button>
+            </a>
             <h6>* Best Price Guaranteed !</h6>
-            <img src="../Hotal Clone/img/back3.jpg" alt="">
+            <img src="../Hotel_Clone/img/back3.jpg" alt="">
         </div>
     </div>
     <!--  section 1 end  -->
@@ -34,12 +42,12 @@
         <div class="container mt-5">
             <div class="col-lg-12 col-12 text-center  mt-5 pylg-5 py-md-3" id="ourRoom">
                 <h1 class="fs-1">Our Favorate Rooms</h1>
-                <p class="fs-4 fs-5 opacity-75">Experience ultimate comfort and luxury in our Deluxe King Room, designed for a relaxing and stylish stay. <br> This spacious 35m² retreat features a plush king-size bed, a private balcony with breathtaking city or garden views, and a modern en-suite bathroom with a rainfall shower</p>
+                <p class=" fs-5 opacity-75">Experience ultimate comfort and luxury in our Deluxe King Room, designed for a relaxing. <br> This spacious 35m² retreat features a plush king-size bed, a  balcony with breathtaking city or garden views, and a modern bathroom with a rainfall shower</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-12 mt-5" id="roomcard">
                     <div class="card border-0">
-                        <img src="../Hotal Clone/img/room-5.jpg" alt="...">
+                        <img src="../Hotel_Clone/img/room-5.jpg" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Villa Dome <i class="fa-solid fa-star text-warning"></i> 4.75</h5>
                             <p class="price">$150 - $250 <span class="text-muted">/ night</span></p>
@@ -54,7 +62,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 mt-5" id="roomcard">
                     <div class="card border-0">
-                        <img src="../Hotal Clone/img/room-3.jpg" alt="...">
+                        <img src="../Hotel_Clone/img/room-3.jpg" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Villa Dome <i class="fa-solid fa-star text-warning"></i> 4.75</h5>
                             <p class="price">$150 - $250 <span class="text-muted">/ night</span></p>
@@ -69,7 +77,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 mt-5" id="roomcard">
                     <div class="card border-0">
-                        <img src="../Hotal Clone/img/room-2.jpg" alt="...">
+                        <img src="../Hotel_Clone/img/room-2.jpg" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Villa Dome <i class="fa-solid fa-star text-warning"></i> 4.75</h5>
                             <p class="price">$150 - $250 <span class="text-muted">/ night</span></p>
@@ -84,7 +92,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 mt-5" id="roomcard">
                     <div class="card border-0">
-                        <img src="../Hotal Clone/img/room-3.jpg" alt="...">
+                        <img src="../Hotel_Clone/img/room-3.jpg" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Villa Dome <i class="fa-solid fa-star text-warning"></i> 4.75</h5>
                             <p class="price">$150 - $250 <span class="text-muted">/ night</span></p>
@@ -99,7 +107,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 mt-5" id="roomcard">
                     <div class="card border-0">
-                        <img src="../Hotal Clone/img/room-4.jpg" alt="...">
+                        <img src="../Hotel_Clone/img/room-4.jpg" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Villa Dome <i class="fa-solid fa-star text-warning"></i> 4.75</h5>
                             <p class="price">$150 - $250 <span class="text-muted">/ night</span></p>
@@ -114,7 +122,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 mt-5" id="roomcard">
                     <div class="card border-0">
-                        <img src="../Hotal Clone/img/room-5.jpg" alt="...">
+                        <img src="../Hotel_Clone/img/room-5.jpg" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Villa Dome <i class="fa-solid fa-star text-warning"></i> 4.75</h5>
                             <p class="price">$150 - $250 <span class="text-muted">/ night</span></p>
@@ -129,7 +137,9 @@
                 </div>
             </div>
             <div class="headbtn text-center mt-5">
-                <button class="py-3 px-4 ">BOOK ONLINE</button>
+            <button type="button" class="  me-5 py-2 px-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Book Online
+      </button>
             </div>
         </div>
     </section>
@@ -140,17 +150,16 @@
         <div class="container" id="ourCon">
             <div class="col-lg-12 col-12 pt-lg-5 text-center">
                 <h1 class="py-3 fs-1">OUR AWESOME SERVICES</h1>
-                <p class="py-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p class="py-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut <br>  magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
             </div>
             <div class="row">
                 <div class="col-lg-7 col-md-12" id="imgcon">
-                    <div class="wrapper" style="height: 100%;">
-                        <div class="carousel" style="height: 100%;">
+                    <div class="wrapper" >
+                        <div class="carousel our-img-div">
                             <div><img src="./img/services-1.jpg"></div>
                             <div><img src="./img/services-2.jpg"></div>
-                            <div><img src="./img/services-3.jpg"></div>
+                            <div><img src="./img/services-6.jpg"></div>
                             <div><img src="./img/services-4.jpg"></div>
-                            <div><img src="./img/services-5.jpg"></div>
                         </div>
                     </div>
                 </div>
@@ -302,9 +311,9 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="contact-form py-lg-4">
                         <div class="contact-info">
-                            <span class="location"><i class="fa-solid fa-map-marker-alt"></i> Navagio Zakynthos</span>
-                            <span class="phone"><i class="fa-solid fa-phone"></i> 1-888-123-4567</span>
-                            <span class="email"><i class="fa-solid fa-envelope"></i> contact@site.com</span>
+                            <a class="location"><i class="fa-solid fa-map-marker-alt"></i> Navagio Zakynthos</a>
+                            <a class="phone"><i class="fa-solid fa-phone"></i> 1-888-123-4567</a>
+                            <a class="email"><i class="fa-solid fa-envelope"></i> contact@site.com</a>
                         </div>
 
                         <form>
@@ -321,7 +330,8 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            Thanks For Visiting
+                                            <h2> Thanks For Visiting</h2>
+
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -337,76 +347,8 @@
     </section>
     <!-- section 5 end  -->
 
-    <section class="section6">
-        <footer class="footer bg-light pt-5">
-            <div class="container">
-                <div class="row">
-                    <!-- Hotel Zante Description -->
-                    <div class="col-lg-4 col-md-6">
-                        <h4 class="text-primary fw-bold">Hotel Zante <span class="text-warning">*****</span></h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
-                        </p>
-                        <p>
-                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <h5 class="fw-bold">Latest News</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Live your myth in Greece</a> <br><small>AUGUST 13, 2016</small></li>
-                            <li><a href="#">Zante Hotel in pictures</a> <br><small>AUGUST 16, 2016</small></li>
-                            <li><a href="#">Zante Hotel family party</a> <br><small>SEPTEMBER 15, 2016</small></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6">
-                        <h5 class="fw-bold">Useful Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Location</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6">
-                        <h5 class="fw-bold">Contact Us</h5>
-                        <ul class="list-unstyled">
-                            <a href="tel:+1234567890">
-                            <li><i class="fa-solid fa-location-dot"></i>25, Navagio Zakynthos, Greece</li>
-                            </a>
-                            <a href="tel:+1234567890">
-                            <li><i class="fa-solid fa-phone"></i> 800 123 3456</li>
-                            </a>
-                            <a href="tel:+1234567890">
-                            <li><i class="fa-solid fa-fax"></i> 800 123 3456</li>
-                            </a>
-                            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@site.com">contact@site.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <hr>
-
-                <!-- Footer Bottom -->
-                <div class="d-flex justify-content-between align-items-center">
-                    <p>Copyright 2025 <a href="#" class="text-primary">by me</a> All Rights Reserved.</p>
-                    <div>
-                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-google-plus"></i></a>
-                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#" class="text-dark"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-    </section>
+    
+    <?php include 'include/footer.php' ?>
 </main>
 
 
@@ -414,4 +356,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="js/script.js"></script>
-<?php include 'include/footer.php' ?>
